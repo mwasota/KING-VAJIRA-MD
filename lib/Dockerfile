@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/vajirabot1/KING-VAJIRA-MD /root/vajirabot1
-WORKDIR /root/vajirabot1/
+RUN git clone https://github.com/VajiraTech/KLING-VAJIRA-MD /root/VajiraTech
+WORKDIR /root/VajiraTech/
 RUN npm install npm@latest
 RUN npm install
 EXPOSE 8000
