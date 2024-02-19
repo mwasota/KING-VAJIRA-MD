@@ -115,10 +115,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
+                 "url": "git+https://github.com/VajiraTech/KING-VAJIRA-MD.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
+                 "url": "https://github.com/VajiraTech/KING-VAJIRA-MD/issues"
                   },
-                 "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
+                 "homepage": "https://github.com/VajiraTech/KING-VAJIRA-MD#readme"
                   }
