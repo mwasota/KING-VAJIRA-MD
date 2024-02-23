@@ -12,8 +12,10 @@ const url = 'https://gist.github.com/VajiraTech/32826daa4c68497b1545c7c19160d3e9
         },
 **/ 
 cmd({ on: "text" }, async (Void,citel,text,{isCreator})=> {
+if (Config.autovoice === 'true' && citel.text) {
   let { data } = await axios.get(url)
   for (vr in data){
  if((new RegExp(`\\b${vr}\\b`,'gi')).test(citel.text)) return Void.sendMessage(citel.chat,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:citel})   
+}
 }
 })
