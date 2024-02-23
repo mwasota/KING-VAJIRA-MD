@@ -98,6 +98,11 @@
     "description": "Reacts emoji to all commands.",
      "value": "false",
      "required": false 
+},
+      "AUTO_VOICE": {
+    "description": "Auto voice of commands.",
+     "value": "false",
+     "required": false 	
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
