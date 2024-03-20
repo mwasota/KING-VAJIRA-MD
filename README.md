@@ -26,7 +26,7 @@
 
 ## Refresh the page when not show the qr then you can scan the qr code
 
-[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://vajiramdqr-765dc5f71075.herokuapp.com/)
+[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://kingvajirapair-5dbedcd69973.herokuapp.com/)
 
 ## More QR-CODES...
 
