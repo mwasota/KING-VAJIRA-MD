@@ -1,14 +1,14 @@
 {
-  "name": "VAJIRA-Md by excel ",
+  "name": "Xhriss-Md by excel ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
+  "logo": "https://telegra.ph/file/2912dd1d0665285ffc931.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "VajiraBot", "Secktor","VAJIRAMD","theme bot","multi device","baileys","excel"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Vajira Rathnayama"
+      "value": "Xhriss"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
@@ -20,7 +20,7 @@
       },
 	"AUTO_READ_STATUS": {
       "description": "Automatically read status of every person and sends in log number.",
-       "required" :false
+       "required" :true
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -32,11 +32,11 @@
 },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg"
+     "value": "https://telegra.ph/file/2912dd1d0665285ffc931.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
@@ -60,7 +60,7 @@
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
    "DISABLE_PM": {
     "description": "Disable bot in pm",
@@ -68,11 +68,11 @@
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
-      "value": "."
+      "value": ","
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "put your number"
+       "value": "255688930205"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@VajiraRathnayak/VAJIRA-MD-7?v=1"
@@ -88,11 +88,11 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are IZUKU,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "VAJIRA"
+     "value": "Xhriss_Md"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public"
+         "value": "private"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
